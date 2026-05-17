@@ -13,8 +13,6 @@ const port = process.env.PORT;
 app.set("views", "./views");
 app.set("view engine", "pug");
 
-
-//nhung file tinh
 app.use(express.static("public"));
 
 // Routes
